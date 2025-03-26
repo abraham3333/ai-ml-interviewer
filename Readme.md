@@ -1,5 +1,5 @@
 # Machine Learning & Deep Learning Interview Preparation App
-
+-inspired from https://github.com/analyticsbot
 <div align="center">
   <img src="images/ai-ml-code-interviewer.png" alt="AI-ML Code Interviewer" width="800"/>
 </div>
