@@ -69,7 +69,8 @@ To set up and run this app locally, follow these steps:
 
     ```bash
     git clone https://github.com/abraham3333/ai-ml-interviewer.git
-    cd ai-ml-code-interviewer
+    cd ai-ml-interviewer
+
     ```
 
 2. **Install dependencies**:
