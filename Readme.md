@@ -68,7 +68,7 @@ To set up and run this app locally, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/analyticsbot/deep-learning.git
+    git clone https://github.com/abraham3333/ai-ml-interviewer.git
     cd ai-ml-code-interviewer
     ```
 
