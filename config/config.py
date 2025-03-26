@@ -10,7 +10,7 @@ LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:1234/v1")
 # Provider-specific API keys
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyD8R4jrZ3cBsjfIP9j7Qd-9Q6DGQjQ_9KM")  # Güncellendi
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", Your Api Key")  # User must provide
 GROK_API_KEY = os.getenv("GROK_API_KEY", "")
 # For backward compatibility
 LLM_API_KEY = os.getenv("LLM_API_KEY", "lm-studio")
@@ -44,9 +44,9 @@ LLM_PROVIDERS = {
     },
     "google": {
         "name": "Google AI (Gemini)",
-        "base_url": "https://generativelanguage.googleapis.com/v1/",  # Güncellendi
-        "api_key": "AIzaSyD8R4jrZ3cBsjfIP9j7Qd-9Q6DGQjQ_9KM",  # Güncellendi
-        "models": ["gemini-2.0-flash"],  # Güncellendi
+        "base_url": "https://generativelanguage.googleapis.com/v1/",  # updated
+        "api_key": "AIzaSyD8R4jrZ3cBsjfIP9j7Qd-9Q6DGQjQ_9KM",  # updated
+        "models": ["gemini-2.0-flash"],  # updated
     },
     "grok": {
         "name": "Grok",
